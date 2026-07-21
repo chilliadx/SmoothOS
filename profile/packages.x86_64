@@ -126,3 +126,7 @@ xdg-utils
 xfsprogs
 xl2tpd
 zsh
+linux-zen
+linux-zen-headers
+fastfetch
+neovim
