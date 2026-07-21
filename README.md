@@ -15,4 +15,4 @@ A simple and smooth distribution based on arch linux that doesn't require good s
 Boot the ISO in a virtual environment:
 
 ```bash
-qemu-system-x86_64 -cdrom smoothos.iso -m 2G -enable-kvm
+qemu-system-x86_64 -cdrom ~/SmoothOS-Dev/out/*.iso -m 4G -enable-kvm -smp 4
