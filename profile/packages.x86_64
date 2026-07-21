@@ -130,3 +130,13 @@ linux-zen
 linux-zen-headers
 fastfetch
 neovim
+plasma-meta
+sddm
+networkmanager
+konsole
+dolphin
+arch-install-scripts
+gptfdisk
+parted
+e2fsprogs
+dosfstools

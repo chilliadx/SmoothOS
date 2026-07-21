@@ -1,0 +1,15 @@
+[Unit]
+Description=Configure SmoothOS first boot
+ConditionFirstBoot=yes
+After=systemd-user-sessions.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/sbin/useradd -m -G wheel -s /bin/zsh SmoothOS
+ExecStart=/usr/bin/echo "SmoothOS:SmoothOS" | /usr/sbin/chpasswd
+ExecStart=/usr/bin/echo "SmoothOS-pc" > /etc/hostname
+ExecStart=/usr/bin/mkdir -p /etc/sddm.conf.d
+ExecStart=/usr/bin/bash -c 'printf "[Autologin]\nUser=SmoothOS\nSession=plasma\n" > /etc/sddm.conf.d/autologin.conf'
+
+[Install]
+WantedBy=multi-user.target
