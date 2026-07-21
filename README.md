@@ -1,7 +1,7 @@
 # SmoothOS
 simply smooth.
 
-A simple distribution based on arch linux that doesn't require good specifications. 
+A simple and smooth distribution based on arch linux that doesn't require good specifications. 
 
 ## Features
 
