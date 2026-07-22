@@ -15,4 +15,9 @@ A simple and smooth distribution based on arch linux that doesn't require good s
 Boot the ISO in a virtual environment:
 
 ```bash
-qemu-system-x86_64 -enable-kvm -m 4G -smp 4 -cdrom out/archlinux-2026.07.21-x86_64.iso -boot d
+qemu-system-x86_64 -enable-kvm -m 4G -smp 4 \
+  -drive file=vm.qcow2,format=qcow2 \
+  -cdrom out/archlinux-2026.07.21-x86_64.iso \
+  -boot d
+ ```
+ (Before you install, note that you'll have no Konsole or most apps. To install them, you either have to add them manually through Additional Packages in archinstall, or from a TTY by pressing Ctrl + Alt + F3)
