@@ -20,4 +20,4 @@ qemu-system-x86_64 -enable-kvm -m 4G -smp 4 \
   -cdrom out/archlinux-2026.07.21-x86_64.iso \
   -boot d
  ```
- (Before you install, note that you'll have no Konsole or most apps. To install them, you either have to add them manually through Additional Packages in archinstall, or from a TTY by pressing Ctrl + Alt + F3)
+(Before you install, note that you'll have no Konsole or most apps. To install them, you either have to add them manually through Additional Packages in archinstall, or from a TTY by pressing Ctrl + Alt + F3. If you're new to archinstall and want a graphical environment, go to Profiles > Desktop > KDE (or KDE Plasma) and select it).
