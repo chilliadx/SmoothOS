@@ -1,9 +1,8 @@
 [Desktop Entry]
 Type=Application
-Version=1.0
 Name=Install SmoothOS
-Comment=Install SmoothOS to your hard drive or SSD
-Exec=sudo calamares
+Comment=Launch the SmoothOS System Installer
+Exec=sudo archinstall
 Icon=system-software-install
-Terminal=false
+Terminal=true
 Categories=System;

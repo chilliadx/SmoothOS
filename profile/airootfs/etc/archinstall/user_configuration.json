@@ -1,0 +1,10 @@
+{
+  "packages": [
+    "konsole",
+    "dolphin",
+    "fastfetch",
+    "ksystemstats",
+    "lm_sensors",
+    "networkmanager-qt"
+  ]
+}
